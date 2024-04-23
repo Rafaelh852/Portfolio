@@ -3,10 +3,26 @@ Portfolio website redisign for 2024, using TailwindCSS, flask and HTMX.
 
 
 ## Goals
-### phase1
+### phase 1
 - setup cicd
 - trian jupyter notebook model
 - run in a docker container
 - make api for interactivity
 - setup frontend interface 
 
+### phase 2
+- setup database
+- implementing security
+- make api more secure
+- make interface update database using CRUD
+- train model using new database data
+- update cicd to make changes
+
+
+some possible things include 
+- AWS integration
+- PostgresqlDB mastery
+- Search features
+- model accuracy
+
+- prometheus? 

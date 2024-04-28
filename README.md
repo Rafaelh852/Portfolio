@@ -26,3 +26,6 @@ some possible things include
 - model accuracy
 
 - prometheus? 
+
+
+start by making Journey Notebooks Journey to MLOPs

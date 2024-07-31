@@ -1,0 +1,8 @@
+{% extends "template.html"%}
+
+{% block content %}
+
+    <!--div hx-get="/collection/{{notebook}}" hx-trigger="load" hx-swap="innerHTML">New Notebook</div-->
+    <iframe src="/collection/{{notebook}}" frameborder="0" class=" container mx-auto db2 min-h-[640px] overflow-hidden"></iframe>
+
+{% endblock content %}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.db1 {
+    border: 2px solid red;
+}
+.db2 {
+    border: 2px solid blue;
+}
+.db3 {
+    border: 2px solid black;
+}

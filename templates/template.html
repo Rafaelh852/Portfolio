@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--meta http-equiv="refresh" content="7" -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MLOps Portfolio</title>
    <link rel="stylesheet" href="/assets/css/output.css">
+   
 </head>
 <body>
-    {% block content %}
-    <div>default content for content block</div>
-    {% endblock content%}
+    {% include "topbar.html" %}
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+        {% block content %}
+        {% endblock content%}
+    </div>
 
-    <script src="/assets/js/htmx.js" />
+
+    <script src="/assets/js/htmx.js" ></script>
 </body>
 </html>

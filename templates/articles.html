@@ -1,0 +1,55 @@
+
+<div class="bg-white py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
+        <div class="w-full lg:max-w-lg lg:flex-auto" id="articles">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Articles</h2>
+          <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80" alt="" class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]">
+        </div>
+        <div class="w-full lg:max-w-xl lg:flex-auto">
+          <h3 class="sr-only">Notebooks</h3>
+          <ul class="-my-8 divide-y divide-gray-100">
+            <li class="py-8">
+              <dl class="relative flex flex-wrap gap-x-3">
+                <dt class="sr-only">Role</dt>
+                <dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+                  <a href="#articles" hx-get="/notebook/FourierTransform"
+                    hx-target="#notebook"
+                    hx-trigger="load, click"
+                    hx-swap="innerHTML"
+                  >
+                    Fourier Transforms 
+                    <span class="absolute inset-0" aria-hidden="true"></span>
+                  </a>
+                </dd>
+                <dt class="sr-only">Description</dt>
+                <dd class="mt-2 w-full flex-none text-base leading-7 text-gray-600">Examples of Fourier Transforms from Scipy Documentatation</dd>
+                <dt class="sr-only">Engineering</dt>
+                <dd class="mt-4 text-base font-semibold leading-7 text-gray-900">Engineering</dd>
+                <dt class="sr-only">Language</dt>
+                <dd class="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500">
+                  <svg viewBox="0 0 2 2" class="h-0.5 w-0.5 flex-none fill-gray-300" aria-hidden="true">
+                    <circle cx="1" cy="1" r="1" />
+                  </svg>
+                  Python
+                </dd>
+              </dl>
+            </li>
+            <!-- more goes here-->
+          </ul>
+          <div class="mt-8 flex border-t border-gray-100 pt-8">
+            <a href="#articles" class="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500">View all Articles <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative overflow-hidden pt-16 lg:pt-20">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div id="notebook"></div>
+        <div class="relative" aria-hidden="true">
+          <div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

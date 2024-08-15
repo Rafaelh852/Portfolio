@@ -38,3 +38,11 @@ lambda functions
 Possible tutorial series to capture what is going on or why things are the way they are
 
 
+some topics i want to cover are
+
+- using llama
+- training an xg-boosted model
+- linear regression
+- logistic regressions
+
+

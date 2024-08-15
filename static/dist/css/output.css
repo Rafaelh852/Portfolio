@@ -608,6 +608,10 @@ video {
   visibility: collapse;
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -791,10 +795,6 @@ video {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-\[76rem\] {
-  width: 76rem;
 }
 
 .w-full {

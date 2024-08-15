@@ -40,9 +40,14 @@ Possible tutorial series to capture what is going on or why things are the way t
 
 some topics i want to cover are
 
-- using llama
-- training an xg-boosted model
-- linear regression
-- logistic regressions
+using llama
+training an xg-boosted model
 
-
+Linear Regression
+Logistic Regression
+Principle Component Analysis
+Bootstrapping
+K-means Clustering
+Discriminant Analysis
+Factor Analysis
+Decision Trees
